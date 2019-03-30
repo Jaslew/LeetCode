@@ -1,5 +1,6 @@
 /*
 暴力法，时间复杂度O(n)
+244 ms, 在Two Sum的C++提交中击败了2.99% 的用户
 */
 class Solution {
 public:

@@ -9,7 +9,7 @@
 
 解法：
 暴力法，时间复杂度O(n)
-244 ms, 在Two Sum的C++提交中击败了2.99% 的用户
+执行用时 : 172 ms, 在Two Sum的C++提交中击败了17.92% 的用户
 */
 class Solution {
 public:

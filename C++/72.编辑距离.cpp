@@ -34,7 +34,7 @@ public:
             dp[i][0] = i;
         for(int j = 1; j <= n; ++j)     //初始化第一行，对应 word1为空字符串时的情况
             dp[0][j] = j;
-        for(int i = 1; i <= m; ++i)     //其他情况按注释里的其它递推
+        for(int i = 1; i <= m; ++i)     //实现从(1,1)递推至(m,n)
             for(int j = 1; j <= n; ++j){
                 if(word1[i-1] == word2[j-1])
                     dp[i][j] = dp[i-1][j-1];

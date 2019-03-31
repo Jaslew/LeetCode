@@ -1,3 +1,3 @@
 # LeetCode
 
-LeetCode算法
+LeetCode算法笔记,菜鸟一枚，有问题欢迎交流~

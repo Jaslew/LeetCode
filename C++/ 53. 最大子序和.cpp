@@ -6,6 +6,7 @@
 dp[i] = nums[0];    i = 0
 dp[i] = max(nums[i], dp[i-1] + nums[i]);    i > 0
 返回dp数组中的最大值。
+
 执行用时 : 20 ms, 在Maximum Subarray的C++提交中击败了18.72% 的用户
 内存消耗 : 9.2 MB, 在Maximum Subarray的C++提交中击败了0.94% 的用户
 */

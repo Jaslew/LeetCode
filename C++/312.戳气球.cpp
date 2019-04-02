@@ -53,7 +53,7 @@ public:
             return dp[start][end];
         for(middle = start; middle <= end; ++middle){     //对区间的每一个位置尝试性作为最后一个戳破的位置，找到最优的位置
             left = dfs(start, middle-1);                  //区间[start，middle-1]的dp值
-            right = dfs(middle+1, end);                   //区间[middle+1，start]的dp值
+            right = dfs(middle+1, end);                   //区间[middle+1，end]的dp值
             dp[start][end] = max(dp[start][end], left + right + mnums[start-1] * mnums[middle] * mnums[end+1]);   //加入备忘录
         }
         return dp[start][end];
